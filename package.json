@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-electron-boilerplate",
+  "version": "0.0.0",
+  "description": "nuxt-electron-boilerplate",
+  "author": "tamfoi",
+  "private": true,
+  "main": "entry-point.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development electron .",
+    "build": "cross-env NODE_ENV=production nuxt build && electron-builder"
+  },
+  "build": {
+    "appId": "nuxt-electron-boilerplate",
+    "directories": {
+      "output": "build"
+    }
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.1",
+    "electron": "^6.0.7",
+    "electron-builder": "^21.2.0",
+    "electron-devtools-installer": "^2.2.4"
+  }
+}

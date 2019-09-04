@@ -80,5 +80,15 @@ build
 # Serverless directories
 .serverless
 
-# IDE
+# IDE / Editor
 .idea
+.editorconfig
+
+# Service worker
+sw.*
+
+# Mac OSX
+.DS_Store
+
+# Vim swap files
+*.swp

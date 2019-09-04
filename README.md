@@ -1,8 +1,10 @@
-# nuxt-electron-sandbox
+# nuxt-electron-boilerplate
+
+> nuxt-electron-boilerplate
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ npm install
 
@@ -11,5 +13,6 @@ $ npm run dev
 
 # build
 $ npm run build
-
 ```
+
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
